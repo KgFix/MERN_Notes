@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 // 2: model based off the schema
 
 const noteSchema = new mongoose.Schema({
-    titles:{
+    title:{
         type:String,
         required: true,
         },
